@@ -23,7 +23,7 @@ const cards = ({data}) => {
                         </Typography>
                         <Typography variant = "h6">{new Date(data.lastUpdate).toDateString()}</Typography>
                         <Typography variant = "body2">
-                            Number of active COVID-19 cases
+                            Number of confirmed COVID-19 cases
                         </Typography>
                     </CardContent>
                 </Card>
@@ -42,7 +42,7 @@ const cards = ({data}) => {
                         </Typography>
                         <Typography variant = "h6">{new Date(data.lastUpdate).toDateString()}</Typography>
                         <Typography variant = "body2">
-                            Number of active COVID-19 cases
+                            Number of recoveries from COVID-19
                         </Typography>
                     </CardContent>
                 </Card>
@@ -60,7 +60,7 @@ const cards = ({data}) => {
                             /></Typography>
                         <Typography variant = "h6" >{new Date(data.lastUpdate).toDateString()}</Typography>
                         <Typography variant = "body2">
-                            Number of active COVID-19 cases
+                            Number of deaths caused by COVID-19
                         </Typography>
                     </CardContent>
                 </Card>
