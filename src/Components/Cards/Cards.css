@@ -1,0 +1,22 @@
+.grid{
+    display: flex;
+    justify-content: center;
+}
+
+.card1{
+    border-bottom: 4px solid  rgba(0, 0, 255, .9);
+}
+
+.card2{
+    border-bottom: 4px solid  rgba(0, 255, 0, .9);
+}
+
+.card3{
+    border-bottom: 4px solid  rgba(255, 0, 0, .9);
+}
+
+@media screen and (max-width: 750px) {
+    .card{
+        margin: 0 20px !important;
+    }
+}
