@@ -2,6 +2,7 @@ import React from 'react'
 import { Card, CardContent, Typography, Grid } from '@material-ui/core'
 import Cards from './Cards.css'
 import CountUp from 'react-countup'
+import { FaSpinner } from 'react-icons/fa'
 
 const cards = ({data}) => {
     console.log(data)
@@ -65,7 +66,7 @@ const cards = ({data}) => {
                     </CardContent>
                 </Card>
             </Grid>
-        </Grid> : <h3>loading...</h3> }
+        </Grid> : <FaSpinner /> }
         </div>
     ) 
 }
